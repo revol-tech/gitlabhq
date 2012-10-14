@@ -21,4 +21,7 @@ color:#3e3e3e !important;
 header .app_logo a h1{
  background: url("revol_tech_nepal_logo.png") no-repeat scroll 0 -11px transparent !important;
  width:104px !important;
- }
+}
+.login-logo{
+   margin:0 0 30px 0px !important;
+}
