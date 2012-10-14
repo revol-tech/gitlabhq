@@ -9,3 +9,16 @@
  *= require_self
  *= require main
 */
+header{
+ background-color: rgba(0, 96, 160, 0.8) !important;
+ border-bottom:none !important;
+
+}
+header .project_name{
+color:#3e3e3e !important;
+
+}
+header .app_logo a h1{
+ background: url("revol_tech_nepal_logo.png") no-repeat scroll 0 -11px transparent !important;
+ width:104px !important;
+ }
