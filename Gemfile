@@ -95,6 +95,9 @@ gem 'settingslogic'
 gem "foreman"
 gem "git"
 
+#deployment tool
+gem "capistrano"
+
 group :assets do
   gem "sass-rails",   "3.2.5"
   gem "coffee-rails", "3.2.2"
