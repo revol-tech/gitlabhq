@@ -3,7 +3,7 @@ require "bundler/capistrano"
 require "rvm/capistrano"
 set :use_sudo, false #permission conflict resolve
 set :rvm_type, :system
-set :deploy_to, "/home/deploy/www/beta.revol-tech.com.np"
+set :deploy_to, "/home/gitlab/gitlab/"
 
 
 set :application, "gitlabhq"
