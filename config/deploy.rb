@@ -8,7 +8,8 @@ set :deploy_to, "/home/gitlab/gitlab/"
 
 set :application, "gitlabhq"
 set :repository,  "git@github.com:revol-tech/gitlabhq.git"
-
+set :user, "deploy"
+set :scm_username, 'xecutioner'
 set :scm, :git
 # Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
 
